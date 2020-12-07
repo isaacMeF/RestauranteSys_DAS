@@ -33,4 +33,4 @@ Repositorio para trabajar en el proyecto de DAS antes del 18 de dic (Fecha de en
 
 6.- git pull origin main && git pull origin preview
 
-
+# RECUERDEN QUE EL PULL ANTES DE CUALQUIER OPERACION ES MUY IMPORTANTE
