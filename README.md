@@ -27,8 +27,11 @@ Repositorio para trabajar en el proyecto de DAS antes del 18 de dic (Fecha de en
 
 3.- git commit -m "comentario del commit"
 
-4.- git push
+4.- git pull origin main && git pull origin preview
 
-5.- git pull origin main && git pull origin preview
+5.- git push origin preview
+
+6.- git pull origin main && git pull origin preview
+
 
 
