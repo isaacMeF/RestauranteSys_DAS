@@ -11,7 +11,6 @@ router.get('/obtener-meseros', async (req, res) =>{
         const meseros = await connection.query(query);
         res.json(meseros);
 
-
     } catch(error){
         return res.json({error}); 
     }
