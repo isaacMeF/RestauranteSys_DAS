@@ -4,12 +4,12 @@ const router = express.Router();
 
 import connection from '../connection';
 
-router.get('/obtener-meseros', async (req, res) =>{
+router.get('/obtener-ordenspec', async (req, res) =>{
 
     try{
-        const query = 'SELECT * FROM meseros';
-        const meseros = await connection.query(query);
-        res.json(meseros);
+        const query = 'SELECT * FROM ordenespec';
+        const ordenspec = await connection.query(query);
+        res.json(ordenspec);
 
 
     } catch(error){
