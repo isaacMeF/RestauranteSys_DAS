@@ -8,8 +8,8 @@ router.get('/obtener-meseros', async (req, res) =>{
 
     try{
         const query = 'SELECT * FROM meseros';
-        const mesas = await connection.query(query);
-        res.json(mesas);
+        const meseros = await connection.query(query);
+        res.json(meseros);
 
 
 
