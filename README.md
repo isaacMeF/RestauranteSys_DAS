@@ -34,3 +34,16 @@ Repositorio para trabajar en el proyecto de DAS antes del 18 de dic (Fecha de en
 6.- git pull origin main && git pull origin preview
 
 # RECUERDEN QUE EL PULL ANTES DE CUALQUIER OPERACION ES MUY IMPORTANTE
+
+# Dependencias del proyecto
+
+"@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.7",
+    "connect-history-api-fallback": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
