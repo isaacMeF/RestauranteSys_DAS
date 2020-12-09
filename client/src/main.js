@@ -7,7 +7,13 @@ import '@babel/polyfill'
 import 'roboto-fontface/css/roboto/roboto-fontface.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+
 Vue.config.productionTip = false
+Vue.use(VueAxios, axios);
+
+axios.defaults.baseURL = 'http://localhost:3001/'
 
 new Vue({
   router,
