@@ -28,7 +28,7 @@ create table if not exists Meseros(
 create table if not exists ComidaxBebidas(
 	CXM_ID int auto_increment,
 	CXM_Nombre varchar(50) not null,
-    CXM_Categoria  ENUM( 'Alcoholicas','Jugos','Refrescos','Té','Malteadas','Aguas','Carnes Rojas','Carnes Blancas','Sopas','Estofados','Pan','Cremas' ),
+    CXM_Categoria  ENUM( 'Entradas','Desayunos','Alcoholicas','Jugos','Refrescos','Té','Malteadas','Aguas','Carnes Rojas','Carnes Blancas','Sopas','Estofados','Pan','Cremas' ),
     CXM_Precio decimal(5,2) not null,
     
     primary key(CXM_ID), # Se uso una llave artificial para poder llevar un control mas acertado de las comidas y bebidas

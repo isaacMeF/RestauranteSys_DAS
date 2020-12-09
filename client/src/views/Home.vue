@@ -53,7 +53,6 @@
       async llenar_alimentos(){
         const api_data = await this.axios.get('/comidaxbebida/obtener-comidaxbebida');
         this.comidas_bebidas = api_data.data;
-        console.log(api_data.data);
       }
     },
 
