@@ -21,6 +21,8 @@ Repositorio para trabajar en el proyecto de DAS antes del 18 de dic (Fecha de en
 7.- Comentar todos los cambios de manera explicita, sin excepciones
 
 ## Metodologia de comandos
+### Cuando suban sus cambios asegurense de estar en el directorio raiz del proyecto, no en el de cliente o servidor, todo como se indica debe de ser en el branch preview
+
 1.- git pull origin main && git pull origin preview
 
 2.- git add .
